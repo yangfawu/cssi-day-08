@@ -29,3 +29,38 @@ input {
 a {
   font-weight: 600;
 }
+
+div.my-card {
+    padding: 16px;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+div.my-card > h1 {
+    font-size: large;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 4px;
+    margin: 0;
+    padding-bottom: 4px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid black;
+}
+
+div.my-card > h1 > code {
+    padding: 3px;
+    color: black;
+    font-size: large;
+}
+
+section#messageContainer {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 16px;
+    align-items: flex-start;
+}
